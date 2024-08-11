@@ -1,4 +1,5 @@
 'use client'
+
 import { Box, Stack, Typography, Modal, Button, TextField } from '@mui/material'; // Make sure to import the Box component
 import { firestore } from '@/firebase';
 import { query, collection, getDocs, setDoc, doc, deleteDoc, getDoc } from 'firebase/firestore';
